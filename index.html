@@ -16,8 +16,9 @@
         <!-- main banner -->
         <section class="gif-background" id="home">
           <div class="centered-content">
-            <h1>Renuka Bondapalli</h1>
-            <p>Passionate Fresher | Ready to Learn and Innovate</p>
+           <h1 style="color: #00e0e0; font-weight: 700;">Renuka Bondapalli</h1>
+           <p style="color: #aefeff;">Passionate Fresher | Ready to Learn and Innovate</p>
+
           </div>
         </section>
         
@@ -34,22 +35,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
               <li class="nav-item active">
-                  <a class="nav-link" href="#home" style="color: #ffffff;">Home</a>
+                  <a class="nav-link" href="#home" style="color: aqua; text-shadow: 0 0 4px aqua;">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#about" style="color: #ffffff;">About</a>
+                  <a class="nav-link" href="#about" style="color: aqua; text-shadow: 0 0 4px aqua;">About</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#portfolio" style="color: #ffffff;">Projects</a>
+                  <a class="nav-link" href="#portfolio" style="color: aqua; text-shadow: 0 0 4px aqua;">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Figma" style="color: #ffffff;">Designs</a>
+                  <a class="nav-link" href="#Figma" style="color: aqua; text-shadow: 0 0 4px aqua;">Coding Profiles</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Internships" style="color: #ffffff;">Internship</a>
+                <a class="nav-link" href="#Figma" style="color: aqua; text-shadow: 0 0 4px aqua;">Designs</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#lists" style="color: #ffffff;">Contact</a>
+                <a class="nav-link" href="#Internships" style="color: aqua; text-shadow: 0 0 4px aqua;">Internship</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#lists" style="color: aqua; text-shadow: 0 0 4px aqua;">Contact</a>
               </li>
           </ul>
           
@@ -60,10 +64,13 @@
 
 
 
+
+
     <!-- about section-->
-    <section id="about" style="background-color: black;">
+    <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Me</h1>
+           <h1 class="text-center" style="color: aqua; text-shadow: 0 0 4px aqua;">About Me</h1>
+
             <div class="row mt-4">
  
                 <div class="col-lg-8">
@@ -120,7 +127,8 @@
                     <div class="box">
                         <div class="content">
                             <h2>Renuka Bondapalli<br><span>Fresher</span></h2>
-                            <a href="https://drive.google.com/file/d/10rLqzZr9i9pDXSSJY6dQD0LylrL5oCwJ/view?usp=drivesdk">Resume</a>
+                            <!-- <a href="https://drive.google.com/file/d/10rLqzZr9i9pDXSSJY6dQD0LylrL5oCwJ/view?usp=drivesdk">Resume</a> -->
+                            <a href="#portfolio">Explore More</a>
                         </div>
                     </div>
                 </div>
@@ -136,18 +144,40 @@
         <!-- portfolio section-->
         <section id="portfolio">
             <div class="container mt-3">
-                <h1 class="text-center">Projects</h1>
+                <h1 class="text-center" style="color: aqua; text-shadow: 0 0 4px aqua;">Projects</h1>
                  <!-- Example Code -->
     <div class="row row-cols-1 row-cols-md-3 g-4">
-
+        
         <div class="col">
           <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-1">
-            <img src="home automation.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
+            <img src="AI Recruiter Agent.png" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
             <img src="play1.png" class="play-btn">
             <div class="card-body text-white">
-              <h5 class="card-title">Home Automation System</h5>
-              <p class="card-text"> IoT-based home automation system enables remote control and monitoring of household devices through internet-connected sensors and actuators. </p>
+              <h5 class="card-title">AI Recruiter Agent</h5>
+              <p class="card-text">AI resume screener using LangChain, FAISS, BGE, and Gemini for smart filtering and Q&A. Matches and ranks resumes based on job descriptions.</p>
   
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-white" onclick="window.open(' https://fake-profile-detection-mo0s.onrender.com')">
+            <img src="fakeprofile.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
+            <img src="play1.png" class="play-btn">
+            <div class="card-body text-white">
+              <h5 class="card-title">Fake Profile Detection</h5>
+              <p class="card-text">It employs five advanced algorithms to accurately analyze user data, detect inconsistencies, and flag suspicious profiles in real-time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-7">
+            <img src="RAG Q&A.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
+            <img src="play1.png" class="play-btn">
+            <div class="card-body text-white">
+              <h5 class="card-title">RAG-Based Document Chatbot</h5>
+              <p class="card-text">Built a Flask chatbot with LangChain, ChromaDB, and Gemini Flash API for RAG-based document Q&A using BGE-large embeddings.</p>
             </div>
           </div>
         </div>
@@ -164,18 +194,18 @@
           </div>
         </div>
 
-  
         <div class="col">
           <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-2">
-            <img src="fakeprofile.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
+            <img src="home automation.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
             <img src="play1.png" class="play-btn">
             <div class="card-body text-white">
-              <h5 class="card-title">Fake Profile Detection</h5>
-              <p class="card-text">It employs five advanced algorithms to accurately analyze user data, detect inconsistencies, and flag suspicious profiles in real-time.</p>
+              <h5 class="card-title">Home Automation System</h5>
+              <p class="card-text"> IoT-based home automation system enables remote control and monitoring of household devices through internet-connected sensors and actuators. </p>
+  
             </div>
           </div>
         </div>
-  
+
         <div class="col">
           <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-3">
             <img src="fingerFlow.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
@@ -187,9 +217,20 @@
           </div>
         </div>
         
-  
         <div class="col">
           <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-4">
+            <img src="Fill Up.png" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
+            <img src="play1.png" class="play-btn">
+            <div class="card-body text-white">
+              <h5 class="card-title">Fill Up Python Game</h5>
+              <p class="card-text">Two players take turns filling containers with random water amounts. After 10 clicks each, the one with the most water wins!
+</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card bg-dark border-white" data-bs-toggle="modal" data-bs-target="#video-5">
             <img src="Chatbot.jpeg" class="bd-placeholder-img card-img-top" width="100%" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></img>
             <img src="play1.png" class="play-btn">
             <div class="card-body text-white">
@@ -209,20 +250,17 @@
             </div>
           </div>
         </div>
-  
-  
-  
       </div>
-     
-            </div>
+        </div>
       <!-- End Example Code -->
   
+
+
+
       <!-- Modal -->
+
   
-  
-  
-  
-    <div class="modal fade" id="video-1">
+    <div class="modal fade" id="video-2">
   
     <div class="modal-dialog modal-dialog-centered">
   
@@ -247,34 +285,28 @@
   
     <!-- Modal -->
 
-
-
-
-    <div class="modal fade" id="video-2">
   
-      <div class="modal-dialog modal-dialog-centered">
-    
-        <div class="modal-content">
-    
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Fake Profile</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-    
-          <div class="modal-body">
-            <video width="100%" height="100%" controls muted>
-              <source src="fakeprofile.mp4">
-            </video>
-          </div>
-    
-        </div>
-    
-      </div>
-    
-      </div>
-
+<div class="modal fade" id="video-1">
   
-  <div class="modal fade" id="video-4">
+  <div class="modal-dialog modal-dialog-centered">
+  
+    <div class="modal-content">
+  
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">AI Recruiter Aggent</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" height="100%" controls muted>
+          <source src="AI Recruiter Agent.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="modal fade" id="video-5">
   
   <div class="modal-dialog modal-dialog-centered">
   
@@ -315,6 +347,44 @@
   
   </div>
   
+<div class="modal fade" id="video-4">
+  
+  <div class="modal-dialog modal-dialog-centered">
+  
+    <div class="modal-content">
+  
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Fill Up Python Game</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" height="100%" controls muted>
+          <source src="Fill Up Python Game.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+<div class="modal fade" id="video-7">
+  
+  <div class="modal-dialog modal-dialog-centered">
+  
+    <div class="modal-content">
+  
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">RAG-Based Document Chatbot</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <video width="100%" height="100%" controls muted>
+          <source src="RAG Q&A.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  </div>
   
   <div class="modal fade" id="video-3">
   
@@ -331,26 +401,59 @@
           <source src="fingerFlow.mp4" type="video/mp4">
         </video>
       </div>
-  
     </div>
-  
   </div>
-  
   </div>
-  
-  
   </div>
 
 
+<!-- Coding profiles -->
+ <section id="Figma" style="color:#fff;">
+  <div class="container">
+      <h1 class="text-center" style="color: aqua; text-shadow: 0 0 4px aqua;">Coding Profiles</h1>
+      <div class="row">
 
+        <div class="col-lg-4 mt-4">
+          <div class="drop">
+          <div class="contents">
+            <a href="https://leetcode.com/renuka_11" target="_blank">
+              <img src="leetcode.webp" class="bd-placeholder-img card-img-top" width="100%" height="250px"
+                alt="LeetCode Profile">
+            </a>
+          </div>
+          </div>  
+      </div>
 
+      <div class="col-lg-4 mt-4">
+          <div class="drop">
+          <div class="contents">
+            <a href="https://www.hackerrank.com/profile/22A31A04Q4" target="_blank">
+              <img src="hackerRank.png" class="bd-placeholder-img card-img-top" width="100%" height="250px"
+                alt="HackerRank Profile">
+            </a>
+          </div>
+          </div>  
+      </div>
 
+      <div class="col-lg-4 mt-4">
+          <div class="drop">
+          <div class="contents">
+            <a href="https://www.codechef.com/users/renuka_11" target="_blank">
+              <img src="codechef.jpg" class="bd-placeholder-img card-img-top" width="100%" height="250px"
+                alt="CodeChef Profile">
+            </a>
+          </div>
+          </div>  
+      </div>
+    </div>
+  </div>
+</section>
 
 
  <!-- designing -->
  <section id="Figma" style="color:#fff;">
   <div class="container">
-      <h1 class="text-center">Flyer Designs</h1>
+      <h1 class="text-center" style="color: aqua; text-shadow: 0 0 4px aqua;">Flyer Designs</h1>
       <div class="row">
 
         <div class="col-lg-4 mt-4">
@@ -375,9 +478,6 @@
         </div>
         </div>  
     </div>
-
-          
-
       </div>
   </div>
 </section>
@@ -390,12 +490,30 @@
   <!-- Internship section-->
   <section id="Internships">
     <div class="container">
-        <h1 class="text-center">Internships</h1>
+        <h1 class="text-center" style="color: aqua; text-shadow: 0 0 4px aqua;">Internships</h1>
         <div class="row" style="margin-top: 60px;">
             <div class="col">
                 <div class="card servicesText">
                     <div class="card-body">
                         <i class="fas servicesIcon fa-check-circle"></i>
+                        <h4 class="card-title mt-3">Google AI-ML Virtual Internship, AICTE</h4>
+                        <p class="card-text mt-3">
+                          <ul>
+                            <li>Role : AI/ML Intern</li>
+                            <li>Location : Remote</li>
+                            <li>Duration : 3 months (April 2024 – June 2024)</li>
+                            <li>Modules : Neural Networks, Object Detection, Image Classification, AI Ethics</li>
+                            <li>Technologies : TensorFlow, Computer Vision, Product Image Search</li>
+                          </ul>
+                        </p>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="col">
+                <div class="card servicesText">
+                    <div class="card-body">
+                        <i class='fas servicesIcon fa-check-circle'></i>
                         <h4 class="card-title mt-3">Salesforce Developer Virtual Internship</h4>
                         <p class="card-text mt-3">
                           <ul>
@@ -408,31 +526,9 @@
                     </div>
                 </div>  
             </div>
-
-            <div class="col">
-                <div class="card servicesText">
-                    <div class="card-body">
-                        <i class='fas servicesIcon fa-check-circle'></i>
-                        <h4 class="card-title mt-3">Cloud Virtual Internship</h4>
-                        <p class="card-text mt-3"><ul>
-                          <li>Role : Cloud Engineering</li>
-                          <li>Location : Remote</li>
-                          <li>Duration : 3 months</li>
-                          <li>Modules : Aws Academy Cloud Foundations,Aws Academy Cloud Architecting</li>
-                          <li>Technologies : Amazon S3, Amazon EC2, AWS Lambda, IAM, Amazon RDS.</li>
-
-                      </ul>
-                        </p>
-                    </div>
-                </div>  
-            </div>
         </div>
     </div>
 </section>
-
-
-
-
 
 <section id="resume" style="color: #fff;">
       <div class="container mt-4 pt-4 resume_glassbox">
@@ -443,7 +539,7 @@
             </div>
   
             <div class="col-lg-8 boxs" style="margin-top: 10px;">
-              <h3>Contact</h3>
+              <h3 style="color: aqua; text-shadow: 0 0 4px aqua;">Contact</h3>
               
 
           <div class="lists">
@@ -477,14 +573,11 @@
                 <a href="https://github.com/RenukaBondapalli" style="text-decoration: none;"> <h5>Github</h5></a>
                 <p>Welcome to Github page</p>
             </div>
-
         </div>
       </div>
-            </div>
+        </div>
           </div>
 </section>
-
-
     
 </body>
 </html>
