@@ -22,10 +22,11 @@ I love exploring new technologies, solving real-world problems, and constantly l
 
 ## 📌 Website Sections
 
-- 🙋‍♀️ About Me  
-- 🚀 Projects  
-- 🛠️ Skills
-- 💻 Coding Profiles  
-- 🎓 Internships  
+- 🙋‍♀️ About Me
+- 🛠️ Skills  
+- 🚀 Projects
+- 🎓 Internships 
+- 📜 Certifications
+- 💻 Coding Profiles    
 - 📫 Contact Info  
 
